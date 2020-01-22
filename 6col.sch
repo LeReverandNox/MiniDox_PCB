@@ -759,8 +759,6 @@ Wire Wire Line
 	1700 2950 1900 2950
 Wire Wire Line
 	1700 2350 1900 2350
-Wire Wire Line
-	1700 4150 4600 4150
 Text Label 7800 4300 2    60   ~ 0
 col3
 Text Label 7800 4400 2    60   ~ 0
@@ -834,13 +832,13 @@ Wire Wire Line
 	7150 3150 7150 3750
 Connection ~ 6200 2550
 Wire Wire Line
-	6200 2550 6200 3750
+	6200 2550 6200 3150
 Connection ~ 5500 2950
 Wire Wire Line
 	5500 2950 6450 2950
 Connection ~ 5300 2550
 Wire Wire Line
-	5300 2550 5300 3750
+	5300 2550 5300 3150
 Connection ~ 4600 2950
 Wire Wire Line
 	4600 2950 5500 2950
@@ -880,7 +878,15 @@ Wire Wire Line
 Connection ~ 5500 4150
 Wire Wire Line
 	5500 4150 6450 4150
-Connection ~ 4600 4150
+Wire Wire Line
+	1700 4150 4600 4150
 Wire Wire Line
 	4600 4150 5500 4150
+Connection ~ 4600 4150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3150 5300 3750
+Connection ~ 6200 3150
+Wire Wire Line
+	6200 3150 6200 3750
 $EndSCHEMATC
